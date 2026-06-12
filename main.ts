@@ -1,6 +1,6 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (screen2 == 0) {
-        scene.setBackgroundImage(assets.image`1`)
+        scene.setBackgroundImage(assets.image`0-1`)
     }
     screen2 += 1
 })
